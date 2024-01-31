@@ -1,0 +1,20 @@
+body {
+   background-color: rgb(43, 39, 17);
+}
+
+h1 {
+   color: rgb(206, 188, 97);
+}
+
+p {
+   color: rgb(182, 180, 125);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+   color: rgb(224, 204, 17);
+}
+
+#git {
+   width: 18px;
+}
