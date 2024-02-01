@@ -56,3 +56,9 @@ strong {
    justify-content: space-around;
    padding: 5%;
 }
+
+.conteudo {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
