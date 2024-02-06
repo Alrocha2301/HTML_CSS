@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+:root {
+   --cor-de-fundo: rgb(24, 56, 12);
+   --cor-primaria: rgb(171, 223, 141);
+   --cor-secundaria: rgba(66, 153, 49, 0.932);
+   --cor-destaque: rgba(114, 252, 51, 0.918);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Krona One', sans-serif;
+   color: var(--cor-secundaria);
+}
+
+.cabecalho {
+   padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+   display: flex;
+   gap: 80px
+}
+
+.cabecalho__link {
+   text-decoration: none;
+}
+
+body {
+   background-color: var(--cor-de-fundo);
+   height: 100vh;
+   box-sizing: border-box;
+   padding: 5px;
+   align-items: center;
+}
+
+p {
+   font-size: 24px;
+   color: var(--cor-primaria);
+   font-weight: 75%;
+   text-align: justify;
+}
+
+strong {
+   color: var(--cor-destaque);
+}
+
+.skills {
+   color: var(--cor-destaque);
+}
+
+.logo_link {
+   width: 35px;
+}
+
+.apresentacao {
+   margin: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: justify;
+   font-family: 'Krona One', sans-serif;
+}
+
+#java {
+   width: 35%;
+}
+
+.titulo {
+   font-size: 36px;
+   color: var(--cor-secundaria);
+}
+
+.links {
+   display: flex;
+   justify-content: space-around;
+   padding: 5%;
+}
+
+.conteudo {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+
+h2 {
+   font-family: 'Krona One', sans-serif;
+   color: var(--cor-secundaria);
+   font-weight: 150;
+}
+
+.rodape {
+   padding: 8px;
+   background-color: var(--cor-destaque);
+}
+
+.classe {
+   color: var(--cor-de-fundo);
+   font-family: 'Krona One', sans-serif;
+   font-size: 16px;
+}
+
+.paragrafo {
+   font-size: 16px; text-align: left;
+}
